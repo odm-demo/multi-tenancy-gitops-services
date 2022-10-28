@@ -113,7 +113,7 @@ spec:
         resources:
           requests:
             storage: 8Gi
-        volumeMode: Filesystem
+        # volumeMode: Filesystem
         storageClassName: ibmc-file-gold #hardcoded
       status:
         phase: Pending
