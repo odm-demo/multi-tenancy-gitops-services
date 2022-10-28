@@ -114,7 +114,7 @@ spec:
           requests:
             storage: 8Gi
         volumeMode: Filesystem
-        storageClassName: ibmc-file-gold
+        storageClassName: ibmc-file-gold #hardcoded
       status:
         phase: Pending
   serviceName: openldap-openldap-stack-ha-headless
